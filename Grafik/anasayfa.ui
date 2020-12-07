@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>906</width>
+    <height>594</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QListWidget" name="listWidgetGrafik">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>311</width>
+      <height>531</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widgetCizdirici" native="true">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>10</y>
+      <width>571</width>
+      <height>531</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>906</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuAra_lar">
+    <property name="title">
+     <string>Araçlar</string>
+    </property>
+    <addaction name="actionFonksiyon_Ekle"/>
+    <addaction name="actionFonksiyon_Sil"/>
+   </widget>
+   <addaction name="menuAra_lar"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionFonksiyon_Ekle">
+   <property name="text">
+    <string>Fonksiyon Ekle</string>
+   </property>
+  </action>
+  <action name="actionFonksiyon_Sil">
+   <property name="text">
+    <string>Fonksiyon Sil</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
